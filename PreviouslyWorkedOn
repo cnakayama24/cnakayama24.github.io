@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<link rel="icon" href="logo.png">
+
+
+
+
+<head>
+	<title>Christopher Nakayama </title>
+<style type="text/css">
+		body{
+			background-image:url(https://78.media.tumblr.com/4c03d8caa6a811b4359c0149c55a9dfd/tumblr_o3gvliImVQ1qcbjtzo1_1280.gif);
+			background-size: cover;
+			background-attachment: fixed;
+            font-family: sans-serif;
+		}
+		.main{
+			background: black;
+			background-size: fixed;
+			background-attachment: fixed;;
+			width: 500px;
+			opacity: 85%;
+			padding: 30px;
+			margin: 100px auto;
+            font-family: monospace;
+			border-radius: 10px;
+            text-align: center;
+		}
+        .links{
+            color:white;
+            line-height: 40px;
+            font-size: 20px;
+            font-weight: 100;
+        }
+        h2{
+            font-size: 30px;
+            text-decoration: bold;
+        }
+          a:hover {
+        color:  #f3352f;
+              
+        }
+        a{
+            color:white;
+            text-decoration: none;
+        }
+
+
+	</style>
+<link rel = "icon" href = "favicon.png"> 
+</head>
+
+
+
+
+<body>
+<div class="main">
+<font color = 'white'>
+
+
+<h2 style = "font-size: 40px"> Previously Worked On <h2>
+    <hr>
+<div class = links>
+<a title="Matt" href="https://www.matt.fun/"> Matt</a>
+<br>
+<a title="The Sustainable Switch" href="https://www.thesustainableswitch.com/" >The Sustainable Switch</a>
+<br>
+<a title="Tempo Storm" href="https://www.tempostorm.com/ " > Tempo Storm</a>
+<br>
+<a title="Coffee Marvels" href="https://www.coffeemarvels.com/" >Coffe Marvels</a>
+<br>
+    </div>
+    <hr>
+<a href="index.html" style ="font-size: 17px; text-decoration: none;
+"> Home </a>
+
+
+</body>
+</html>
