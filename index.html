@@ -1,7 +1,7 @@
 <html>
 <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSVOTOdmKbIwLe92OrUVtcRGC7ZAmkH1CNHUA&usqp=CAU">
 <title>Christopher Nakayama </title>
-<meta name="viewport" content="width=device-width, initial-scale=0.3">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
 
@@ -17,21 +17,14 @@
             font-family: 'Orbitron', sans-serif;
             width: 100%;
 		}
-		.main{
-			background: black;
-			background-size: fixed;
-			background-attachment: fixed;;
-			opacity: 85%;
-			padding: 8px;
-            font-family: 'Orbitron', sans-serif;
-			border-radius: 10px;
-            text-align: left;
-            color: white;
 		}
         .links{
             color:white;
             line-height: 30px;
             font-weight: 100;
+            margin-top: 40px;
+            height: 50px;
+            width: 970px;
         }
         h2{
             font-size: 16px;
@@ -54,19 +47,49 @@
        display:inline-block; 
        margin-left: 40px; 
          }
+    .name{
+        font-size: 40px;
+        margin-top: 355px;
+    }
+    @media only screen and (max-width: 375px){
+        body {
+            width: 100%; 
+        }
+        .links{
+            color:white;
+            line-height: 30px;
+            font-weight: 100;
+            margin-top: 100px;
+            height:100px;
+            font-size: 40px;
+            background-color: none;
+            width: 1000px;
+            margin-left: 70px;
+        }
+        .name{
+            font-size: 90px;
+            margin-left: 240px;
+            margin-top: 1040px;
+        }
+        .views{
+            margin-left: 110%;
+            margin-top: 500px;
+            height: 60px;
+            width 300px;
+        }
+    }
+    
 	</style>  
 </div>
 	
 
 
  
-    
-<center>
+<div class = "wrapper">
+ <center>
 <!-- Links -->
-<h2 style = "background-color: black; height: 50px; border-radius: 30px; width: 970px; margin-top: 40px">
-<a href = "about.html">About Me</a> 
-<p class = "tab"></p>
-<p class = "tab"></p>
+<h2 class = "links" style = "border-radius: 30px; ">
+
 <a href = "CurrentlyWorkingOn.html">Current Work </a> 
 <p class = "tab"></p>
 <p class = "tab"></p>
@@ -77,16 +100,17 @@
 <p class = "tab"></p>
 <p class = "tab"></p>
 <a href = "Contact.html"> Contact Me</a>
+<p class = "tab"></p>
+<p class = "tab"></p>
+<a href = "about.html">About Me</a> 
 <br>
  
 </h2> 
 </center>
     
-
-
 <!-- Name -->
 <center>
-<h2 style = "color:limegreen; font-size: 40px; margin-top: 330px;  center; padding-top: 16px; background-color: rgba(0, 0, 0, 0); width: 600px; height:70px; border-radius: 30px;">
+<h2 class = "name" style = "color:limegreen;  center; padding-top: 16px; background-color: rgba(0, 0, 0, 0); width: 600px; height:70px; border-radius: 30px;">
 Christopher Nakayama 
 </h2>     
             
@@ -98,10 +122,13 @@ Christopher Nakayama
 <br>
 <br>
 <br>
-<img src="https://hitwebcounter.com/counter/counter.php?page=7354249&style=0038&nbdigits=5&type=page&initCount=0" title="Web Views" 
+
+<img class = "views" src="https://hitwebcounter.com/counter/counter.php?page=7354249&style=0038&nbdigits=5&type=page&initCount=0" title="Web Views" 
 Alt="Web Views"   border="3" style = "opacity: 1; color:grey">
   
 </center>
+   
+</div> 
 
 
 
