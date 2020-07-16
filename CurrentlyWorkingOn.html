@@ -25,13 +25,13 @@
             color:white;
             line-height: 30px;
             font-weight: 100;
-            margin-top: 60px;
+            margin-top: 40px;
             height: 50px;
             width: 970px;
             line-height: 0.1;
         }
-        h2{
-            font-size: 16px;
+         h2{
+            font-size: 40px;        
         }
         a:hover{
             color: limegreen;
@@ -54,64 +54,116 @@
         font-size: 40px;
         margin-top: 355px;
     }
-    	.main{
-			background: black;
+    .main{
+        background-color: black;
+        background-size: fixed;
+        background-attachment: fixed;;
+        width: 600px;
+        opacity: 75%;
+        padding: 30px;
+        margin: 100px auto;
+        font-family: 'Orbitron', sans-serif;   
+        border-radius: 10px;
+        text-align: center;
+        color:white;
+    }
+     
+        .dropbtn {
+  background-color: transparent;
+  border-radius: 10px;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  font-family: 'Orbitron', sans-serif;
+  outline-color: transparent;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin-bottom: -1000px;
+  z-index: 1;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+}
+.dropdown-content a {
+  color: white;
+  padding:6px 16px;
+  text-decoration: none;
+  background-color: rgb(110, 130, 157, 0.4);
+  display: block;
+  font-size: 18px;
+}
+.dropdown-content a:hover {background-color: rgba(0, 0, 0, 0.4);color: limegreen}
+.dropdown:hover .dropdown-content {display: contents;}
+        @media only screen and (max-width: 812px)
+    {
+        .links{
+            max-width: 100%;
+            max-height: 100%;
+            font-size: 10px;
+            line-height: 40px;
+        }
+        .name{
+            font-size: 40px;
+        }
+        .main{
+            background-color: black;
 			background-size: fixed;
 			background-attachment: fixed;;
-			width: 600px;
+			width: 70%;
 			opacity: 75%;
 			padding: 30px;
 			margin: 100px auto;
             font-family: 'Orbitron', sans-serif;
 			border-radius: 10px;
             text-align: center;
-            color:white;
-    }
-    @media only screen and (max-width: 828px)
+            margin-top: 200px;
+    }   
+          h2{
+            font-size: 30px;        
+        }
 	</style>  
 </div>
-
-<!-- Links -->
-<center>
-<h2 class = "links" style = "margin-top: 60px">
-<a href = "index.html">  Home </a> 
-<p class = "tab"></p>
-<p class = "tab"></p>
-<a href = "CurrentlyWorkingOn.html">Current Work </a> 
-<p class = "tab"></p>
-<p class = "tab"></p>
-<a href = "PreviouslyWorkedOn.html"> Past Work </a> 
-<p class = "tab"></p>
-<p class = "tab"></p>
-<a href = "about.html">About Me</a> 
-<p class = "tab"></p>
-<p class = "tab"></p>
-<a href="SocialLinks.html"> Accounts </a> 
-<p class = "tab"></p>
-<p class = "tab"></p>
-<a href = "Contact.html"> Contact Me</a>
-</h2>
-</center>
-<br>
-
- 
     
+<br>
+<div class="dropdown">
+  <button class="dropbtn"> 
+      <img  style = "height: 40px; width: 40px" src = "https://i.ya-webdesign.com/images/menu-icon-png-3-lines-16.png">
+    </button>
+  <div class="dropdown-content" style = "left: 0">
+      <a href = "index.html">  Home </a> 
+      <a href = "CurrentlyWorkingOn.html">Current Work </a> 
+      <a href = "PreviouslyWorkedOn.html"> Past Work </a> 
+      <a href = "about.html">About Me</a> 
+      <a href="SocialLinks.html"> Accounts </a> 
+      <a href = "Contact.html"> Contact Me</a>
+  </div>
+</div>
+ 
+<center>
 <div class="main">
 <div class = "links" style = "line-height:40px">
-<h2 style = "font-size: 40px; color:limegreen">Current Work<h2>
-    <hr>
+<h2 style = "color:limegreen">Current Work</h2>
+    </div>
+<hr>
 <div class = links style = "line-height: 50px; font-size: 25px">
 <a title = "EatSafe.menu" href="https://www.eatsafe.menu/" >EatSafe.menu</a>
 <br>
-<a title = "Curius App" href="https://www.curiusapp.com/" >Curius App</a>
-<br>
 <a title="Break Finance" href="https://www.breakfinance.com/" >Break Finance</a>
 <br>   
-</links>
 <hr>
-</div>
-
-
+</div> 
+    </div>
 </center>
+
+    
+
+
+
 </html>
 
