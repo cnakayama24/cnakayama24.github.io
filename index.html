@@ -5,8 +5,45 @@
 
 <!-- Styles -->
 <div> 
+
 <style type="text/css">
         @import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+    
+ .dropbtn {
+  background-color: transparent;
+  border-radius: 10px;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  font-family: 'Orbitron', sans-serif;
+  outline-color: transparent;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin-bottom: -1000px;
+  z-index: 1;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+}
+.dropdown-content a {
+  color: white;
+  padding:6px 16px;
+  text-decoration: none;
+  background-color: rgb(110, 130, 157, 0.4);
+  display: block;
+  font-size: 18px;
+}
+.dropdown-content a:hover {background-color: rgba(0, 0, 0, 0.4);}
+.dropdown:hover .dropdown-content {display: contents;}
+    
+    
 
 		body{
 			background-image:url(https://i.redd.it/yd4wq11t2o431.jpg);
@@ -42,7 +79,7 @@
         }   
     .tab { 
        display:inline-block; 
-       margin-left: 40px; 
+        margin-left: 20px; 
         }
     .name{
         font-size: 50px;
@@ -58,36 +95,33 @@
         }
         .name{
             font-size: 40px;
+            margin-top: 350px;
         }
-    }
+    }   
 	</style>  
 </div>
 
-<!-- Links -->
-<center>
-<h2 class = "links">
-<a href = "index.html">  Home </a> 
-<p class = "tab"></p>
-<p class = "tab"></p>
-<a href = "CurrentlyWorkingOn.html">Current Work </a> 
-<p class = "tab"></p>
-<p class = "tab"></p>
-<a href = "PreviouslyWorkedOn.html"> Past Work </a> 
-<p class = "tab"></p>
-<p class = "tab"></p>
-<a href = "about.html">About Me</a> 
-<p class = "tab"></p>
-<p class = "tab"></p>
-<a href="SocialLinks.html"> Accounts </a> 
-<p class = "tab"></p>
-<p class = "tab"></p>
-<a href = "Contact.html"> Contact Me</a>
-</h2>
-</center>
+<!-- Dropdown -->
+<br>
+<div class="dropdown">
+  <button class="dropbtn"> 
+      <img  style = "height: 40px; width: 40px" src = "https://i.ya-webdesign.com/images/menu-icon-png-3-lines-16.png">
+    </button>
+  <div class="dropdown-content" style = "left: 0">
+      <a href = "index.html">  Home </a> 
+      <a href = "CurrentlyWorkingOn.html">Current Work </a> 
+      <a href = "PreviouslyWorkedOn.html"> Past Work </a> 
+      <a href = "about.html">About Me</a> 
+      <a href="SocialLinks.html"> Accounts </a> 
+      <a href = "Contact.html"> Contact Me</a>
+  </div>
+</div>
+    
 
-<!-- Name -->
+
+<!--  Name -->
 <center>
-<h2 class = "name" style = "color:limegreen;  center; padding-top: 16px; background-color: rgba(0, 0, 0, 0); height:70px; border-radius: 30px;line-height: 70px">
+<h2 class = "name" style = "color:limegreen;  center; padding-top: 16px; height:70px; border-radius: 30px;line-height: 70px; ">
 Christopher Nakayama 
 </h2>     
             
@@ -98,4 +132,8 @@ Alt="Web Views"   border="3" style = "opacity: 1; color:grey; margin-top: 200px"
 </div>
   
 </center>
+    
+
+
+
 </html>
