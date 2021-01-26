@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Do+Hyeon&display=swap');
+body{
+    font-family: 'Bebas Neue';
+    color: #4d4d4d;
+    background-color: #ecece2;
+    font-size: 80%;
+}
+.item{
+    padding-top: 1%;
+    text-decoration: none;
+}
+a:visited { text-decoration: none; color:#4d4d4d; }
+a:hover { text-decoration: none; color:#4d4d4d; }
+a:focus { text-decoration: none; color:#4d4d4d; }
+a:hover, a:active { text-decoration: none; color:black }
+a{
+    text-decoration: none;
+}
+.display{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 60%;
+}
+.items{
+    margin-top: -20%;
+    font-size: 90%;
+}
+.title{
+    font-size: 160%;
+}
+.menu{
+    margin: 1.5%;
+}
